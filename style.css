@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.size_img {
+    width: 100%;
+}
+
+.grid-contener {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+}
+
+/* Section en-tete */
+.boutton {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 20px 35px 20px 35px;
+    border: none;
+}
+
+.column_firstline {
+    grid-column: 1/5;
+    background-image: url(image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1000px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin-left: 120px;
+    margin-top: 45px;
+}
+
+.img_logo {
+    width: 200px;
+}
+
+.nav {
+    margin-top: 45px;
+    margin-right: 65px;
+}
+
+.lien_header {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.title_level1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 150px;
+    letter-spacing: 10px;
+    font-family: 'Fraunces', serif;
+    word-spacing: 15px;
+}
+
+.img_fleche {
+    text-align: center;
+    margin-top: 100px;
+}
+/* @media screen {
+    
+    
+} */
+
+/* Section Oeuf */
+.firstcolumn_thirdline {
+    grid-column: 1/3;
+    line-height: 2.3em;
+    background-color: rgb(255, 251, 248);
+    margin: auto;
+}
+
+.secondcolumn_thirdline {
+    grid-column: 3/5;
+}
+
+.title_level2 {
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 1em;
+}
+
+.paragraph0 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(128, 126, 135);
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+
+.high {
+    height: 100%;
+}
+
+.learn_one {
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration: none;
+}
+
+#learn_one_position {
+    background: rgb(253, 238, 180);
+    height: 7px;
+    width: 138px;
+    border-radius: 8px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.learn_two {
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration: none;
+}
+
+#learn_two_position {
+    background: rgb(255, 226, 220);
+    height: 7px;
+    width: 138px;
+    border-radius: 8px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+/* Section Coupe rose */
+.firstcolumn_fourthline {
+    grid-column: 1/3;
+}
+
+.secondcolumn_fourthline {
+    grid-column: 3/5;
+    margin: auto;
+    line-height: 2.3em;
+    background-color: rgb(255, 251, 248);
+}
+
+/* Section Cerise et Orange */
+.firstcolumn_fifthline {
+    grid-column: 1/3;
+    background-image: url(image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 775px;
+}
+
+.text_cerise {
+    text-align: center;
+    color: rgb(48, 103, 90);
+    margin-top: 510px;
+}
+
+.title_level3 {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.paragraph1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(67, 128, 113);
+    line-height: 2em;
+}
+
+.secondcolumn_fifthline {
+    grid-column: 3/5;
+    background-image: url(image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 775px;
+}
+
+.text_orange {
+    text-align: center;
+    color: rgb(28, 84, 104);
+    margin-top: 510px;
+}
+
+.paragraph2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(17, 94, 133);
+    line-height: 2em;
+}
+
+/* Section temoignage clients */
+.column_sixthline {
+    background-color: rgb(255, 251, 248);
+    grid-column: 1/5;
+}
+
+#contener_flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#flex_testimony {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 4%;
+}
+
+#position_testimony1 {
+    margin-left: 13%;
+}
+
+#position_testimony2 {
+    margin-right: 13%;
+}
+
+#font_testimony1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(101, 105, 109);
+    margin-top: 71px;
+    line-height: 2.3em;
+}
+
+#font_testimony2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(101, 105, 109);
+    margin-top: 73px;
+    line-height: 2.3em;
+}
+
+.formcircle_image {
+    border-radius: 50%;
+    width: 21%;
+    text-align: center;
+}
+
+.formcircle_image1 {
+    border-radius: 50%;
+    width: 19%;
+    text-align: center;
+}
+
+.title_client {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    color: rgb(167, 168, 169);
+    letter-spacing: 5px;
+}
+
+.testimony_client {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(101, 105, 109);
+    margin-top: 70px;
+    line-height: 2.3em;
+}
+
+.police_name_client {
+    font-family: 'Fraunces', serif;
+    color: black;
+    margin-top: 80px;
+}
+
+/* Section été */
+.firstcolumn_seventhline {
+    grid-column: 1/2;
+
+}
+
+.secondcolumn_seventhline {
+    grid-column: 2/3;
+}
+
+.thirdcolumn_seventhline {
+    grid-column: 3/4;
+}
+
+.fourthcolumn_seventhline {
+    grid-column: 4/5;
+}
+
+/*Section footer*/
+.column_eighthline {
+    background-color: rgb(144, 212, 197);
+    grid-column: 1/5;
+    text-align: center;
+}
+
+#img_logo_position {
+    margin-top: 100px;
+}
+
+#lien_position {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#flex_footer_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    gap: 2%;
+}
+
+.lien_footer {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: rgb(73, 142, 127);
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 50px;
+}
